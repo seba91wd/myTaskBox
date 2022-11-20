@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Page Title</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+    </head>
+    <body>
+        
+        <div class="myTaskBox">
+            <h2>TaskBox</h2>
+            <form class="formulaire">
+                <article>
+                    <input id="inp_title" type="text" placeholder="Titre"></input>
+                </article>
+                <article>
+                    <textarea id="inp_textarea" placeholder="Tâche à accomplir"></textarea>
+                </article>
+                <article>
+                    <select>
+                        <option selected>Pas urgent</option>
+                        <option>Un peu quand même</option>
+                        <option>Urgent</option>
+                        <option>Pour hier</option>
+                    </select>
+                </article>
+                <article>
+                    <input id="mtb_submit" type="button" value="Envoyé"></input>
+                </article>
+            </form>
+        </div>
+
+        <script src='./script.js'></script>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #000000;
+}
+.myTaskBox{
+    text-align: center;
+    width: 200px;
+    color: #9cc598;
+    background-color: #303136;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.myTaskBox article{
+    margin: 2px;
+}
+.myTaskBox input {
+    width: 150px;
+    color: #9cc598;
+    background-color: #303136;
+}
+.myTaskBox textarea{
+    width: 150px;
+    height: 40px;
+    resize: none;
+    color: #9cc598;
+    background-color: #303136;
+}
+.myTaskBox select{
+    text-align: center;
+    color: #9cc598;
+    background-color: #303136;
+}
+.mtb_btn_edit{
+    position: relative;
+    top: 10px;
+    left: 175px;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #9cc598;
+}
