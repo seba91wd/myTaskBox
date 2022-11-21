@@ -28,8 +28,8 @@ document.addEventListener('click', function(e){
         e.target.style = "transition: 0.5s; margin-bottom: 10px; left: 25px; width: 148px; height: 50px;";
         setTimeout(() => {
             e.target.innerHTML +=`
-                <input style="width: 40px; height: 40px; margin-top: 5px;" type="button" value="🖍">
-                <input style="width: 40px; height: 40px; margin-top: 5px;" type="button" value="🗑">
+                <input style="width: 40px; height: 40px; margin-top: 5px; font-size: 26px;" type="button" value="🖍">
+                <input style="width: 40px; height: 40px; margin-top: 5px; font-size: 26px;" type="button" value="🗑">
                 `
         }, 500)
         e.target.className += " mtb_option";
